@@ -1,0 +1,18 @@
+.card{
+  width: 250px;
+  padding: 25px;
+  margin: 10px;
+
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.card h3{
+  margin-bottom: 20px;
+}
+.card p{
+  margin-bottom: 20px;
+}

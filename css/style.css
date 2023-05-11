@@ -1,0 +1,92 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* links all css */
+@import url('components/buttons.css');
+@import url('components/cards.css');
+
+/* Utilities */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Open Sans;
+
+  background-color: white;
+}
+h1, h2, h3, h4{
+  font-family: Poppins;
+}
+a {
+  text-decoration: none;
+}
+.blur{
+  backdrop-filter: blur(10px);
+}
+li{
+  list-style-type: none;
+}
+/* Custom design below! */
+header{
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-size: cover;
+}
+header p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2em;
+}
+header .content{
+  max-width: 864px;
+  padding: 200px 25px;
+
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  color: white;
+}
+.text-margin-bottom{
+  margin-bottom: 20px;
+}
+
+main h2{
+  margin-top: 20px;
+  text-align: center;
+}
+main .cards{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  max-width: 864px;
+  padding: 25px 25px;
+
+  margin: auto;
+}
+
+footer{
+  background-color: #2C2B2B;
+  text-align: center;
+
+  padding: 75px 0;
+}
+footer .links{
+  width: 180px;
+
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+
+  padding-bottom: 10px;
+}
+footer .links a{
+  color: #1CDD87;
+}
+footer p{
+  color: rgba(255, 255, 255, 0.5);
+}
